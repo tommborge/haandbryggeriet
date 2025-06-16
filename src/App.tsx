@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from './hooks/useLanguage';
 import { LanguageToggle } from './components/LanguageToggle';
+import confetti from 'canvas-confetti';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -27,6 +28,14 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleConfetti = () => {
+    confetti({
+      particleCount: 150,
+      spread: 100,
+      origin: { y: 0.6 },
+    });
+  };
 
   return (
     <div className="min-h-screen bg-slate-900 text-white">
@@ -254,7 +263,10 @@ function App() {
                 </ul>
               </div>
             </div>
-            <button className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-12 py-6 rounded-lg text-2xl font-bold transition-all duration-300 transform hover:scale-105 flex items-center mx-auto">
+            <button 
+              onClick={handleConfetti}
+              className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-12 py-6 rounded-lg text-2xl font-bold transition-all duration-300 transform hover:scale-105 flex items-center mx-auto"
+            >
               {content.whyNow.ctaButton}
               <ArrowRight className="ml-3 w-6 h-6" />
             </button>

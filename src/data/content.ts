@@ -110,7 +110,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "• Unngå å bygge nytt"
         ]
       },
-      ctaButton: "Let's Go"
+      ctaButton: "Yess!"
     },
     footer: {
       subtitle: "Strategisk samarbeid for fremtidens craft beer-marked"
@@ -225,7 +225,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "• Undvika att bygga nytt"
         ]
       },
-      ctaButton: "Kör då!"
+      ctaButton: "Kör!!!"
     },
     footer: {
       subtitle: "Strategiskt samarbete för framtidens craft beer-marknad"
