@@ -4,7 +4,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
   no: {
     hero: {
       title: "Haandbryggeriet & Pinnacle Brands",
-      subtitle: "Rätt folk fixar rätt bolag",
+      subtitle: "Let's fix this.",
       ctaButton: "Se Muligheten",
       downloadButton: "Last ned Presentasjon"
     },
@@ -119,7 +119,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
   sv: {
     hero: {
       title: "Haandbryggeriet & Pinnacle Brands",
-      subtitle: "Rätt folk fixar rätt bolag",
+      subtitle: "Let's fix this.",
       ctaButton: "Se Möjligheten",
       downloadButton: "Ladda ner Presentation"
     },
