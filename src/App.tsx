@@ -58,15 +58,6 @@ function App() {
           <p className="text-2xl md:text-3xl text-slate-300 mb-8 max-w-4xl mx-auto leading-relaxed">
             {content.hero.subtitle}
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center">
-              {content.hero.ctaButton}
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
-            <button className="border-2 border-slate-400 hover:border-amber-400 text-slate-300 hover:text-amber-400 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
-              {content.hero.downloadButton}
-            </button>
-          </div>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-slate-400 rounded-full flex justify-center">
