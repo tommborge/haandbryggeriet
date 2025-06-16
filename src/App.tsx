@@ -30,11 +30,15 @@ function App() {
   }, []);
 
   const handleConfetti = () => {
-    confetti({
-      particleCount: 150,
-      spread: 100,
-      origin: { y: 0.6 },
-    });
+    for (let i = 0; i < 3; i++) {
+      setTimeout(() => {
+        confetti({
+          particleCount: 100,
+          spread: 160,
+          origin: { x: Math.random(), y: Math.random() - 0.2 }
+        });
+      }, i * 300);
+    }
   };
 
   return (

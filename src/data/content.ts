@@ -27,7 +27,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       }
     },
     situation: {
-      title: "Now()",
+      title: "Nåsituasjon",
       description: "Bransjen er i kraftig endring – mest utfordringer, men også sjeldne muligheter",
       challenges: {
         title: "Utfordringer",
@@ -92,7 +92,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       }
     },
     whyNow: {
-      title: "Why now?",
+      title: "Hvorfor nå?",
       description: "Markedet vil fortsatt ha ekte, norsk kvalitetsøl med substans.",
       haandbryggeriet: {
         title: "Haandbryggeriet har:",
