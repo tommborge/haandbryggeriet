@@ -32,7 +32,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       challenges: {
         title: "Utfordringer",
         items: [
-          "Ca. 4,5 M underskudd i 2024",
+          "Ca. 5,5 M underskudd i 2024",
           "Noe mer leting etter skjeletter & etterslep",
           "Kun 500K av 1,2M liter kapasitet i bruk, break-even på ca 850K"
         ]
@@ -86,7 +86,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
         },
         strategic: {
           title: "Strategisk Samspill",
-          description: "Butikkøl produksjon + Hansa",
+          description: "Butikkøl produksjon",
           note: "Unngå kontrakt-churn i Oslo"
         }
       }
@@ -147,7 +147,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       challenges: {
         title: "Utmaningar",
         items: [
-          "Ca. 4,5 M underskott 2024",
+          "Ca. 5,5 M underskott 2024",
           "Lite mer letande efter skelett & eftersläpning",
           "Bara 500K av 1,2M liter kapacitet används, break-even på ca 850K"
         ]
@@ -201,7 +201,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
         },
         strategic: {
           title: "Strategiskt Samspel",
-          description: "Butiksöl produktion + Hansa",
+          description: "Butiksöl produktion",
           note: "Undvik kontrakt-churn i Oslo"
         }
       }
