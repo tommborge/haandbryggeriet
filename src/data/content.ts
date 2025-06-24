@@ -58,7 +58,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       cards: {
         global: {
           title: "Global tilstedeværelse?",
-          description: "Forsterke vår posisjon nasjonalt og internasjonalt med Pinnacles nettverk"
+          description: "Forsterke vår posisjon nasjonalt og internasjonalt"
         },
         export: {
           title: "Eksport-Vekst",
@@ -103,7 +103,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
         ]
       },
       pinnacle: {
-        title: "Pinnacle kan:",
+        title: "vi kan da:",
         items: [
           "• Styrke craft-posisjon",
           "• Få premium, fleksibel produksjon",
@@ -173,7 +173,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       cards: {
         global: {
           title: "Global närvaro?",
-          description: "Förstärka vår position nationellt och internationellt med Pinnacles nätverk"
+          description: "Förstärka vår position nationellt och internationellt med vårt nätverk"
         },
         export: {
           title: "Export-Tillväxt",
@@ -217,8 +217,8 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "• Äkta integritet"
         ]
       },
-      pinnacle: {
-        title: "Pinnacle kan:",
+      vi: {
+        title: "vi kan:",
         items: [
           "• Stärka craft-position",
           "• Få premium, flexibel produktion",

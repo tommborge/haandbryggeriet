@@ -58,7 +58,7 @@ export interface LanguageContent {
       title: string;
       items: string[];
     };
-    pinnacle: {
+    vi: {
       title: string;
       items: string[];
     };
