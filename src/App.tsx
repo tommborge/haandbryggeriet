@@ -259,9 +259,9 @@ function App() {
                 </ul>
               </div>
               <div className="text-left">
-                <h3 className="text-2xl font-bold mb-4 text-amber-400">{content.whyNow.pinnacle.title}</h3>
-                <ul className="space-y-2 text-slate-200">
-                  {content.whyNow.pinnacle.items.map((item, index) => (
+                <h3 className="text-2xl font-bold mb-4 text-amber-400">{content.whyNow.vi.title}</h3>
+                <ul className="space-y-3 text-lg text-slate-300">
+                  {content.whyNow.vi.items.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
