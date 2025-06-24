@@ -45,7 +45,8 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "Moderne utstyr og høy fleksibilitet",
           "Merkevare med høy standing og lojalitet",
           "Erfarne folk med passion og faglig tyngde",
-          "Unik posisjon for markedsledelse"
+          "Unik posisjon for markedsledelse",
+          "Skur4 (skur4.no) lever veldig, veldig bra - og kan skaleres mot kommende innflytterbonanza"
         ]
       },
       capacity: {
@@ -162,7 +163,8 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "Modern utrustning och hög flexibilitet",
           "Varumärke med hög status och lojalitet",
           "Erfarna personer med passion och facklig tyngd",
-          "Unik position för marknadsledarskap"
+          "Unik position för marknadsledarskap",
+          "Skur4 (skur4.no) går väldigt, väldigt bra - och kan skalas mot kommande inflyttningsbonanza"
         ]
       },
       capacity: {

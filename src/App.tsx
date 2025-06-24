@@ -13,7 +13,8 @@ import {
   MapPin,
   Calendar,
   DollarSign,
-  Zap
+  Zap,
+  Beer
 } from 'lucide-react';
 import { useLanguage } from './hooks/useLanguage';
 import { LanguageToggle } from './components/LanguageToggle';
@@ -139,7 +140,7 @@ function App() {
               <h3 className="text-3xl font-bold mb-6 text-green-400">{content.situation.opportunities.title}</h3>
               <div className="space-y-4">
                 {content.situation.opportunities.items.map((item, index) => {
-                  const icons = [Zap, Star, Users, Target];
+                  const icons = [Zap, Star, Users, Target, Beer];
                   const IconComponent = icons[index] || Zap;
                   return (
                     <div key={index} className="flex items-center">
