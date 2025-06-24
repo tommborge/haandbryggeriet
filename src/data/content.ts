@@ -3,8 +3,8 @@ import { LanguageContent } from '../types/language';
 export const content: Record<'no' | 'sv', LanguageContent> = {
   no: {
     hero: {
-      title: "Haandbryggeriet & Pinnacle Brands",
-      subtitle: "Let's fix this.",
+      title: "Haandbryggeriet & veien videre",
+      subtitle: "endring underveis...",
       ctaButton: "Se Muligheten",
       downloadButton: "Last ned Presentasjon"
     },
@@ -118,7 +118,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
   },
   sv: {
     hero: {
-      title: "Haandbryggeriet & Pinnacle Brands",
+      title: "Haandbryggeriet & veien videre",
       subtitle: "Let's fix this.",
       ctaButton: "Se Möjligheten",
       downloadButton: "Ladda ner Presentation"

@@ -65,7 +65,7 @@ function App() {
               <br />
               <span className="text-amber-400">&</span>
               <br />
-              <span className="text-copper-500">Pinnacle Brands</span>
+              <span className="text-copper-500">veien videre</span>
             </h1>
           </div>
           <p className="text-2xl md:text-3xl text-slate-300 mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -283,7 +283,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <div className="flex items-center justify-center mb-6">
             <Factory className="w-8 h-8 text-amber-400 mr-3" />
-            <span className="text-xl font-bold">Haandbryggeriet & Pinnacle Brands</span>
+            <span className="text-xl font-bold">Haandbryggeriet & veien videre</span>
           </div>
           <p className="text-slate-400 mb-4">
             {content.footer.subtitle}
@@ -292,8 +292,8 @@ function App() {
             <a href="https://haandbryggeriet.no" className="hover:text-amber-400 transition-colors">
               haandbryggeriet.no
             </a>
-            <a href="https://belmonte.no" className="hover:text-amber-400 transition-colors">
-              belmonte.no
+            <a href="https://skur4.no" className="hover:text-amber-400 transition-colors">
+              <skur4 className="no"></skur4>
             </a>
           </div>
         </div>
