@@ -105,7 +105,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
         ]
       },
       vi: {
-        title: "Vi kan vel:",
+        title: "Vi kan da vel:",
         items: [
           "• Styrke craft-posisjon",
           "• Få premium, fleksibel produksjon",
