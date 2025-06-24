@@ -32,8 +32,10 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       challenges: {
         title: "Utfordringer",
         items: [
-          "Ca. 5,5 M underskudd i 2024",
-          "Noe mer leting etter skjeletter & etterslep",
+          "'Ca. 3 M' underskudd i 2024",
+          "Kostnadsfører ca 2 M ekstraordinært",
+          "Behov for vedlikeholdsplan",
+          "Ledelse/struktur/rutiner/fokus trenger kjærlighet...",
           "Kun 500K av 1,2M liter kapasitet i bruk, break-even på ca 850K"
         ]
       },
@@ -102,12 +104,12 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
           "• Ekte integritet"
         ]
       },
-      pinnacle: {
-        title: "vi kan da:",
+      vi: {
+        title: "Vi kan vel:",
         items: [
           "• Styrke craft-posisjon",
           "• Få premium, fleksibel produksjon",
-          "• Unngå å bygge nytt"
+          "• Skalere produksjonen kraftig?"
         ]
       },
       ctaButton: "Yess!"
@@ -147,8 +149,10 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
       challenges: {
         title: "Utmaningar",
         items: [
-          "Ca. 5,5 M underskott 2024",
-          "Lite mer letande efter skelett & eftersläpning",
+          "'Cirka 3 M' i underskott 2024",
+          "Kostnadsför cirka 2 M extraordinärt",
+          "Behov av en underhållsplan",
+          "Ledning/struktur/rutiner/fokus behöver kärlek...",
           "Bara 500K av 1,2M liter kapacitet används, break-even på ca 850K"
         ]
       },
@@ -222,7 +226,7 @@ export const content: Record<'no' | 'sv', LanguageContent> = {
         items: [
           "• Stärka craft-position",
           "• Få premium, flexibel produktion",
-          "• Undvika att bygga nytt"
+          "• Skala produktionen kraftigt?"
         ]
       },
       ctaButton: "Kör!!!"
